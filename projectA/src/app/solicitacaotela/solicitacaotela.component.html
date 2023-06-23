@@ -1,0 +1,99 @@
+<!-- <form action="">
+    <p>Sala</p>
+<label for="sala">Sala</label>
+<select name="sala" id="labs" [(ngModel)]="labs">
+    <option value="">LABS1</option>
+    <option value="">LABS2</option>
+</select>
+    
+    <p>Aluno</p>
+<label for="nome">Nome</label>
+    <input type="text" name="nome">
+<label for="turma">Turma</label>
+    <input type="number" name="turma">
+
+    <p>Professor</p>
+<label for="nomep">Nome</label>
+    <input type="text" name="nomep">
+<label for="emailp">E-mail</label>
+    <input type="email" name="emailp"> <br>
+
+<button type="submit">Enviar</button>
+    <p></p>
+</form> -->
+<head>
+   
+
+      
+      </head>
+      <body> 
+         <header id="cabecalho">
+            <br>
+     <h2 id="aaa">Autoriza Lab CTBJ</h2>
+
+     <div class="example-button-row">
+      <button class="alinhar" mat-raised-button color="primary"><a id="link" routerLink="/reservas">Histórico de Reservas</a></button>
+      </div>
+     <br>
+    </header>
+      
+    <br><br>
+    
+<div class="container" id="ouo">
+          <br><p>
+            <mat-form-field appearance="outline">
+              <mat-label for="nome">Nome:</mat-label>
+              <input matInput id="nome" name="nome" [(ngModel)]="nome" required >
+              <mat-icon matSuffix></mat-icon>
+              
+            </mat-form-field>
+          </p><br>
+          
+
+          <mat-form-field>
+            <mat-label>Turma:</mat-label>
+            <select  id="turma" name="turma" [(ngModel)]="turma" matNativeControl  required>
+              <option value="">Selecione</option>
+              <option value="1Ano">1° Ano</option>
+              <option value="2Ano">2° Ano</option>
+              <option value="3Ano">3° Ano</option>
+              <option value="subsequente">Subsequente</option>
+            </select>
+          </mat-form-field><br>
+
+         
+       
+
+          
+<mat-form-field>
+  <mat-label>Laboratorio:</mat-label>
+  <select id="laboratorio" name="laboratorio"  [(ngModel)]="laboratorio" matNativeControl  required>
+    <option value="">Selecione</option>
+    <option value="Lab1">Lab 01</option>
+    <option value="lab2">Lab 02</option>
+    <option value="labRobo">Lab robótica</option>
+  </select>
+</mat-form-field><br>
+          
+ 
+          <p>
+            <mat-form-field appearance="fill">
+              <mat-label for="data">Data:</mat-label>
+              <input type="date" id="data" name="data" [(ngModel)]="data" matInput>
+            </mat-form-field>
+          </p><br>
+          <p>
+            <mat-form-field appearance="fill">
+              <mat-label for="horarioEntrada">horario:</mat-label>
+              <input type="time" id="horarioEntrada" name="horarioEntrada" [(ngModel)]="horarioEntrada" matInput>
+            </mat-form-field>
+          </p><br>
+
+      
+          <div class="container" class="example-button-row">
+            
+            <button id="butao" (click)="submitForm()" mat-stroked-button color="primary">Enviar solicitação</button>
+            </div>
+        </div>
+        </body> 
+

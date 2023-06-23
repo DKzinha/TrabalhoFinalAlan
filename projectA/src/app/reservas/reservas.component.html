@@ -1,0 +1,89 @@
+<header id="cabecalho">
+  <br>
+<h2 id="aaa">Autoriza Lab CTBJ</h2>
+<div class="example-button-row">
+  <button  mat-raised-button color="primary"><a routerLink="/solicitacao" id="link">Solicitar Reserva</a></button>
+  </div>
+<br>
+</header>
+
+
+<div><table mat-table [dataSource]="lista" class="mat-elevation-z8">
+
+
+    <ng-container matColumnDef="ID">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="NomeP">
+      <th mat-header-cell *matHeaderCellDef> Nome do professor </th>
+      <td mat-cell *matCellDef="let element"> {{element.usuario_professor.nome}} </td>
+    </ng-container>
+  
+    
+    <ng-container matColumnDef="Email">
+      <th mat-header-cell *matHeaderCellDef> Email </th>
+      <td mat-cell *matCellDef="let element"> {{element.usuario_professor.email}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="DH">
+      <th mat-header-cell *matHeaderCellDef> Data/Hora </th>
+      <td mat-cell *matCellDef="let element"> {{element.data_hora}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="SALA">
+      <th mat-header-cell *matHeaderCellDef> Sala </th>
+      <td mat-cell *matCellDef="let element"> {{element.sala.nome}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <table>
+    <tr>
+        <th>NOME</th>
+        <th>TURMA</th>
+        <th>DATA/HORA</th>
+        <th>SALA</th>
+        <th>PROFESSOR</th>
+        <th>EMAIL DO PROFESSOR</th>
+        <th>SECRETÁRIO</th>
+        <th>DATA/HORA</th>
+        <th>DATA/HORA</th>
+        <th>DATA/HORA</th>
+    </tr>
+    <tr *ngFor = "let reservas of lista">
+        <th>{{reservas.aluno_nome}}</th>
+        <th>{{reservas.aluno_turma}}</th>
+        <th>{{reservas.data_hora}}</th>
+    </tr>
+</table> -->
+
+
+
+
+
+    
+
+

@@ -1,0 +1,815 @@
+[
+    {
+        "id": 1,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-05-11T10:59:43.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 4,
+            "nome": "Laboratório 1 "
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": null,
+        "usuario_recebe": null
+    },
+    {
+        "id": 5,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-05-11T10:59:43.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 2,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-01-21T11:59:43.000Z",
+        "ocorrencias": [
+            {
+                "id": 4,
+                "usuario_secretario_id": 7,
+                "tipo": "Recebimento ",
+                "texto": "Chave entregue pelo aluno Franciso, do subsequente.",
+                "reserva_id": 2,
+                "timestamp": "2023-05-23T14:12:24.807Z"
+            }
+        ],
+        "sala": {
+            "id": 2,
+            "nome": "2º Ano"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 3,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-05-30T06:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 1,
+            "nome": "1º Ano"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 4,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-05-29T07:30:00.000Z",
+        "ocorrencias": [
+            {
+                "id": 1,
+                "usuario_secretario_id": 6,
+                "tipo": "Entrega ",
+                "texto": "Chave reserva foi entregue.",
+                "reserva_id": 4,
+                "timestamp": "2023-05-23T14:11:44.741Z"
+            },
+            {
+                "id": 11,
+                "usuario_secretario_id": 6,
+                "tipo": "Recebimento ",
+                "texto": "Tudo certo",
+                "reserva_id": 4,
+                "timestamp": "2023-06-09T12:35:30.979Z"
+            }
+        ],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 6,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-05-23T12:18:29.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 4,
+            "nome": "Laboratório 1 "
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": null,
+        "usuario_recebe": null
+    },
+    {
+        "id": 7,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-04-30T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 4,
+            "nome": "Laboratório 1 "
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 10,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-06-05T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 15,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-09-18T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 1,
+            "nome": "1º Ano"
+        },
+        "usuario_professor": {
+            "id": 5,
+            "nome": "Antônio Henrique",
+            "email": "antoniohenrique@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 16,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-09-13T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 5,
+            "nome": "Antônio Henrique",
+            "email": "antoniohenrique@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 18,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-02-24T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 5,
+            "nome": "Antônio Henrique",
+            "email": "antoniohenrique@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 19,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-03-24T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 4,
+            "nome": "Laboratório 1 "
+        },
+        "usuario_professor": {
+            "id": 4,
+            "nome": "Klendson",
+            "email": "klendson@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 20,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-09-08T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 4,
+            "nome": "Klendson",
+            "email": "klendson@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 21,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-04-17T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 1,
+            "nome": "1º Ano"
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 22,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-10-23T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 2,
+            "nome": "2º Ano"
+        },
+        "usuario_professor": {
+            "id": 2,
+            "nome": "Carleandro",
+            "email": "carleandro@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 23,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-04-12T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 25,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-09-23T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 5,
+            "nome": "Antônio Henrique",
+            "email": "antoniohenrique@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 26,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-07-24T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 7,
+            "nome": "Lab. de Manutenção"
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 27,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-12-15T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 28,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-04-03T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 7,
+            "nome": "Lab. de Manutenção"
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 8,
+        "aluno_nome": "Emerson ",
+        "aluno_turma": "Subsequente ",
+        "data_hora": "2023-03-19T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 11,
+        "aluno_nome": "Thiago",
+        "aluno_turma": "Subsequente ",
+        "data_hora": "2023-03-11T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 3,
+            "nome": "3º Ano"
+        },
+        "usuario_professor": {
+            "id": 5,
+            "nome": "Antônio Henrique",
+            "email": "antoniohenrique@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 29,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-06-10T16:28:32.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": null
+    },
+    {
+        "id": 59,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-06-13T12:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": null
+    },
+    {
+        "id": 24,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-06-30T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 7,
+            "nome": "Lab. de Manutenção"
+        },
+        "usuario_professor": {
+            "id": 2,
+            "nome": "Carleandro",
+            "email": "carleandro@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 9,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-12-24T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 4,
+            "nome": "Klendson",
+            "email": "klendson@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 17,
+        "aluno_nome": "Orleans Fulano da Silva Beltrano",
+        "aluno_turma": "Subsequente ",
+        "data_hora": "2023-08-04T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 2,
+            "nome": "2º Ano"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 14,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-11-04T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 2,
+            "nome": "2º Ano"
+        },
+        "usuario_professor": {
+            "id": 5,
+            "nome": "Antônio Henrique",
+            "email": "antoniohenrique@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 13,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-10-14T00:00:00.000Z",
+        "ocorrencias": [
+            {
+                "id": 7,
+                "usuario_secretario_id": 7,
+                "tipo": "Entrega ",
+                "texto": "Você acertou! Parabéns!",
+                "reserva_id": 13,
+                "timestamp": "2023-06-06T13:13:35.981Z"
+            }
+        ],
+        "sala": {
+            "id": 5,
+            "nome": "Laboratório 2 "
+        },
+        "usuario_professor": {
+            "id": 3,
+            "nome": "Mauricio",
+            "email": "mauricio@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 12,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-11-19T00:00:00.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 1,
+            "nome": "1º Ano"
+        },
+        "usuario_professor": {
+            "id": 4,
+            "nome": "Klendson",
+            "email": "klendson@ufpi.edu.br"
+        },
+        "usuario_entrega": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        },
+        "usuario_recebe": {
+            "id": 7,
+            "nome": "Fábio ",
+            "email": "fabio@ufpi.edu.br "
+        }
+    },
+    {
+        "id": 90,
+        "aluno_nome": null,
+        "aluno_turma": null,
+        "data_hora": "2023-06-15T23:45:19.000Z",
+        "ocorrencias": [],
+        "sala": {
+            "id": 6,
+            "nome": "Lab. de Robótica"
+        },
+        "usuario_professor": {
+            "id": 1,
+            "nome": "Allan Jheyson ",
+            "email": "jheyson@ufpi.edu.br "
+        },
+        "usuario_entrega": {
+            "id": 6,
+            "nome": "Alilo ",
+            "email": "alilo@ufpi.edu.br "
+        },
+        "usuario_recebe": null
+    }
+]
